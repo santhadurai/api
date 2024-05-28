@@ -12,7 +12,7 @@ import static io.restassured.RestAssured.*;
 
 public class SfPolicy extends ReadProp{
           @Test
-            void test1() {
+            void test() {
             Response response = get(Host+"/v6/policies/PSL/1205679");
             System.out.println("Response:" + response.asString());
             System.out.println("Status Code:" + response.getStatusCode());

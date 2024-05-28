@@ -3,13 +3,8 @@
 <suite name="GCP_Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/ssethrabalan/IdeaProjects/API">
         <classes>
-            <class name="gcpAddress"/>
-        </classes>
-    </test>
-
-    <test verbose="2" preserve-order="true" name="C:/Users/ssethrabalan/IdeaProjects/API">
-        <classes>
-            <class name="sfPolicy"/>
+            <class name="GcpAddress"/>
+            <class name="SfPolicy"/>
         </classes>
     </test>
 </suite>
