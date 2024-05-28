@@ -23,6 +23,7 @@ public class GcpAddress extends ReadProp{
         JsonPath js = new JsonPath(response);
         String type = js.getString("Policy");
         System.out.println(type);
+        System.out.println(type);
 
     }
 }
