@@ -24,6 +24,7 @@ public class GcpAddress extends ReadProp{
         String type = js.getString("Policy");
         System.out.println(type);
         System.out.println(type);
+        System.out.println("type");
 
     }
 }
